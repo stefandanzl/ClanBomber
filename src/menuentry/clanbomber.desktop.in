@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.1
+Name=@PACKAGE_NAME@
+GenericName=Bomberman-like multiplayer game
+Comment=Blow away your opponents using bombs
+#Icon=/path/to/icon.png
+Exec=@bindir@/@PACKAGE@
+Categories=Game;ActionGame
