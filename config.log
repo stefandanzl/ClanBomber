@@ -684,7 +684,23 @@ config.status:951: creating src/cbe/Makefile
 config.status:951: creating src/find_bin/Makefile
 config.status:951: creating src/fonts/Makefile
 config.status:951: creating src/maps/Makefile
-config.status:937: error: cannot find input file: `src/menuentry/Makefile.in'
+config.status:951: creating src/menuentry/Makefile
+config.status:951: creating src/pics/Makefile
+config.status:951: creating src/wavs/Makefile
+config.status:951: creating po/Makefile.in
+config.status:951: creating config.h
+config.status:1132: config.h is unchanged
+config.status:1180: executing depfiles commands
+config.status:1257: cd src       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
+config.status:1262: $? = 0
+config.status:1257: cd src/cbe       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
+config.status:1262: $? = 0
+config.status:1257: cd src/find_bin       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
+config.status:1262: $? = 0
+config.status:1180: executing po-directories commands
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -1033,4 +1049,4 @@ target_alias=''
 #define HAVE_BOOST_FILESYSTEM /**/
 #define HAVE_BOOST_PROGRAM_OPTIONS /**/
 
-configure: exit 1
+configure: exit 0
