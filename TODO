@@ -1,0 +1,88 @@
+TODO -*- mode: org; -*-
+This file includes the current tasks that need to be done and is
+separated in several sections; each section has a explanation of is usage.
+
+* ROADMAP
+  This part includes the features that are required by a release. Only
+  the latest stable release and the development version should be
+  here.
+** TODO ClanBomber 2.1.1, latest stable release
+*** DONE Works in X11 using SDL
+*** DONE Works in conjunction with PulseAudio
+*** DONE Can be distributed using Zero Install
+*** TODO Have roughly the same features as ClanBomber 2.0.0
+    Some features are left for later releases
+**** DONE Mass AI
+**** DONE Controllers (joysticks)
+**** TODO Implement chat
+*** DONE Add an argument to make the game run in fullscreen
+** TODO ClanBomber 2.2.0-pre, development version
+*** TODO Improve the GUI (implementing a simple but flexible GUI system)
+*** DONE Add a man page
+*** TODO Complete i18n
+*** TODO Implement IDEAS (Snail, Kondom)
+    As there isn't a good graphics for this the two extras will be
+    disabled by default
+**** DONE Snail
+**** TODO Kondom
+*** DONE Add OpenAL support
+* Major changes
+** TODO Pressing the WM close button closes the game
+** Add scripting support (probably using GNU Guile)
+*** Add more gametypes
+*** Implement IDEAS
+*** Make almost all user configurable
+*** User defined keybindings
+** Add OpenGL support
+** Better development console
+** TODO Make the game sleep more time
+** Improve graphics
+** Make a dedicated server
+** Improve net code
+*** Better performance
+** TODO Organize the code to make it more readable and easier to extend
+** TODO Document all game classes
+   Using Doxygen
+** TODO Add documentation
+*** TODO User documentation
+** Make possible to have more complex animations for the characters
+** Have a better input system
+** Change sound files to a more modern format
+   Probably vorbis
+** TODO Debrand game, specially images
+*** DONE Remove intro (fischlustig)
+*** TODO Remove "Writen by ..."
+** TODO Update autotools build code
+** Make sound plugin backend selectable in game
+** Change license to GPLv3
+** Put plugins in a so and dlopen them
+** Use fd.o Icon Naming Specification for controllers icons
+*** Change current controllers icons to a fitting icon theme
+** Make the game integrate as much as possible with the desktop
+* Minor changes
+** Use boost::prt_list instead of std::list where appropriate
+** Use const when possible, alot of iterators can be const, etc.
+** Evaluate if some lists are better as vectors or if vectors are better as lists.
+** DONE Make CB_ functions work with std::string and remove all the c_str() calls
+** Move a lot of things to CB namespace, and maybe change the name of the namespace.
+** Change castings to the least powerful one required.
+** TODO Change from UtilsThread to boost::thread as it is an implementaion of C++0x threads.
+** Consider using boost::tuple instead of UtilsCL_Vector.h .
+** Document and follow the coding standard  in use (check ClanBomber.cpp).
+** Move all SDL usage to cbe.
+** Remove all use of SDL_PumpEvents, must use SDL_PollEvent.
+** Check if CL_Vector really need to have x, y and z as floats.
+** Is Bomber et al adding themselves to lists a desired side effect?, it might turn the code harder to understand. Analise a leave as it is or change to make it cleaner.
+** Use boost::array, eg in Server and Client.
+** TODO Extract BomberConfig from GameConfig files to his own file.
+** DONE Rename Config class to GameConfig.
+** TODO Refuse to run as root
+*** TODO Implementation
+*** TODO Add a build flag to disable this behaviour
+** TODO Rename .h files to .hpp where code is c++.
+* Bugs
+The list of known bugs for stable releases is found at the bug tracker
+at http://savannah.nongnu.org/bugs/?group=clanbomber. Here only the
+bugs in the development releases should be listed including the ones
+reported in the tracker and those should reference the originating
+item in the tracker.

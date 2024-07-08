@@ -1,0 +1,47 @@
+All ClanBomber authors are also copyright holders of their respective
+contributions. See each source file for more information about it
+copyright or the README files in the directories that hold the media
+files (e.g. src/pics/README).
+
+This ClanBomber version is a fork of the original one
+(http://clanbomber.sourceforge.net/). Most authors aren't directly
+involved with this release.
+
+List of ClanBomber authors ordered by area of contribution
+
+Code
+--------------------------------
+Andreas Hundt
+Denis Oliver Kropp
+Rene Lopez <rsl@member.fsf.org>
+mass
+
+Graphics
+--------------------------------
+Andreas Hundt
+Andreeshchev Eugeni
+Denis Oliver Kropp
+James Andrews
+non
+
+Maps
+--------------------------------
+Andreas Hundt
+Clanner
+Denis Oliver Kropp
+Ivar
+mass
+
+Sounds
+--------------------------------
+Andreas Hundt
+Denis Oliver Kropp
+
+Documentation
+--------------------------------
+Martin Pitt <mpitt@debian.org>
+Rene Lopez <rsl@member.fsf.org>
+
+Fonts
+--------------------------------
+See http://dejavu-fonts.org/ for more details.
